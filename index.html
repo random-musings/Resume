@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<title>Mya Musings Interactive Resume</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+		<!--header area-->
+		<div class="container">
+				<div class="row">
+					<div class="col-xs-3">
+						<div id="biopic"></div>
+					</div>
+					<div class="col-md-8">
+						<div id="header" ></div>
+						<div id="contact"></div>
+					</div>
+				</div>
+		</div>
+
+		<!--content area-->
+		<div class="row mainbackground">
+		<div class="tag-vertical-space"></div>
+		<div class="tag-vertical-space"></div>
+		<a id="#top"></a>
+		<div id="tags" class="col-xs-3">
+				<div class="resume-tag tag-left orange-gradient">
+					<a href="#skills-anchor" class="resume-anchor-tag">
+						SKILLS
+					</a>
+				</div>
+				<div class="resume-tag tag-left red-gradient">
+					<a href="#work-anchor" class="resume-anchor-tag">
+						WORK
+					</a>
+				</div>
+				<div class="resume-tag tag-left green-gradient">
+					<a href="#projects-anchor" class="resume-anchor-tag">
+						PROJECTS
+					</a>
+				</div>
+				<div class="resume-tag tag-left  blue-gradient">
+					<a href="#education-anchor" class="resume-anchor-tag">
+						EDUCATION
+					</a>
+				</div>
+				<div class="resume-tag tag-left purple-gradient">
+					<a href="#map-anchor" class="resume-anchor-tag">
+						MAP
+					</a>
+				</div>
+			</div>
+			<div class="max-width text-align-center">
+				<div  class="col-md-9 mainbg">
+					<div class="tag-vertical-space"></div>
+					<div class="tag-vertical-space"></div>
+					<a id="skills-anchor"></a>
+					<div id="skills-space"></div>
+					<div class="tag-vertical-space"></div>
+					<a id="work-anchor"></a>
+					<div id="work-space"></div>
+					<div class="tag-vertical-space"></div>
+					<a id="projects-anchor"></a>
+					<div id="projects-space"></div>
+					<div class="tag-vertical-space"></div>
+					<a id="education-anchor"></a>
+					<div id="education-space"></div>
+					<div class="tag-vertical-space"></div>
+					<a id="map-anchor"></a>
+					<div id="map" class="mapStyle"></div>
+					<div class='text-align-center max-width'>
+						<a href='#top'>back to top</a>
+					</div>
+					<div class="tag-vertical-space"></div>
+					<div class="tag-vertical-space"></div>					
+				</div>
+			</div>
+		</div>
+	<!--java script files-->
+	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/helper.js"></script>
+	<script src="js/resumeBuilder.js"></script>
+</body>
+</html>
